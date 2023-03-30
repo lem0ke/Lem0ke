@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "本地", type: http, server: 127.0.0.1, port: 52000}
+  - {name: "本地", type: http, server: 192.168.31.188, port: 5200}
 proxy-groups:
   - name: 🎶 网易音乐
     type: select
